@@ -1,0 +1,2 @@
+name: Github actions - Push template basic
+run-name: Running - ${{ github.event_name }}
