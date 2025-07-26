@@ -2,7 +2,7 @@ name: Github actions - Push template basic
 run-name: Running - ${{ github.event_name }}
 on:
   push:
-    branches:
+    branches-ignore:
         - main
 
 jobs:
@@ -11,4 +11,4 @@ jobs:
     steps:
        - name: Comentário
          run: |
-           echo "Comentário do workflow push"
+           echo "Comentário do workflow push branch_test"
